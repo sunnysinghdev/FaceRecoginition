@@ -44,7 +44,7 @@ public class TrainNetwork {
        // jframe.setPreferredSize(new Dimension(600, 400));
         tframe.setBounds(350, 100, img.getIconWidth()+5,img.getIconHeight()+50);
         //jframe.setUndecorated(true);
-        tframe.setBackground(new Color(200,200,20,20));
+       // tframe.setBackground(new Color(200,200,20,20));
         tframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         tframe.setResizable(false);
 

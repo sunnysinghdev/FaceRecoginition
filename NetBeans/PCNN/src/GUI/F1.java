@@ -41,7 +41,7 @@ public class F1 {
        // jframe.setPreferredSize(new Dimension(600, 400));
         jframe.setBounds(350, 100, img.getIconWidth()+15,img.getIconHeight()+55);
         //jframe.setUndecorated(true);
-        jframe.setBackground(new Color(200,200,20,20));
+       // jframe.setBackground(new Color(200,200,20,20));
         jframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
        // jframe.setResizable(false);
 
@@ -170,9 +170,9 @@ public class F1 {
     blank2.setIcon(new ImageIcon(f.toString()));
     status.setText("Image Name="+f.getName());
     }
-    /*public static void main(String[] args) throws Exception{
+    public static void main(String[] args) throws Exception{
     new F1().jframe.setVisible(true);
     //new TrainNetwork().tframe.setVisible(true);//new Main().getFoundPerson();
-    }*/
+    }
 
 }
